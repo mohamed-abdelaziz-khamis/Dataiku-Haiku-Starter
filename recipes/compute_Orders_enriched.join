@@ -1,0 +1,136 @@
+{
+  "virtualInputs": [
+    {
+      "autoSelectColumns": false,
+      "index": 0,
+      "preFilter": {
+        "enabled": false,
+        "distinct": false
+      }
+    },
+    {
+      "autoSelectColumns": false,
+      "index": 1,
+      "preFilter": {
+        "enabled": false,
+        "distinct": false
+      }
+    }
+  ],
+  "joins": [
+    {
+      "table1": 0,
+      "outerJoinOnTheLeft": true,
+      "table2": 1,
+      "conditionsMode": "AND",
+      "on": [
+        {
+          "maxDistance": 1,
+          "column1": {
+            "name": "customer_id",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "customerID",
+            "table": 1
+          }
+        }
+      ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "LEFT"
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL",
+      "inheritConf": "default"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      },
+      "pipelineAllowStart": true,
+      "overwriteOutputSchema": false,
+      "readParams": {
+        "map": {}
+      },
+      "useGlobalMetastore": false
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true
+  },
+  "postFilter": {},
+  "enableAutoCastInJoinConditions": false,
+  "selectedColumns": [
+    {
+      "name": "order_date",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "pages_visited",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "order_id",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "customer_id",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "tshirt_category",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "tshirt_price",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "tshirt_quantity",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "gender",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "birthdate",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "user_agent",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "ip_address",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "campaign",
+      "table": 1,
+      "type": "string"
+    }
+  ]
+}

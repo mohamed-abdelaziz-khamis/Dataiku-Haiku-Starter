@@ -1,0 +1,48 @@
+{
+  "checklists": {
+    "checklists": []
+  }, 
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "alex"
+    }, 
+    "lastModifiedOn": 1501614895353, 
+    "versionNumber": 0
+  }, 
+  "customMeta": {
+    "kv": {}
+  }, 
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "deps": [], 
+          "ref": "Orders_by_customer"
+        }
+      ]
+    }
+  }, 
+  "neverRecomputeExistingPartitions": false, 
+  "optionalDependencies": false, 
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "appendMode": false, 
+          "ref": "Clj0CRAY"
+        }
+      ]
+    }
+  }, 
+  "params": {}, 
+  "redispatchPartitioning": false, 
+  "tags": [], 
+  "type": "prediction_training", 
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "alex"
+    }, 
+    "lastModifiedOn": 1501614895353, 
+    "versionNumber": 0
+  }
+}

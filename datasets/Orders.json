@@ -1,0 +1,201 @@
+{
+  "checklists": {
+    "checklists": []
+  }, 
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "alex"
+    }, 
+    "lastModifiedOn": 1498739028609, 
+    "versionNumber": 0
+  }, 
+  "customMeta": {
+    "kv": {}
+  }, 
+  "flowOptions": {
+    "crossProjectBuildBehavior": "DEFAULT", 
+    "rebuildBehavior": "NORMAL", 
+    "virtualizable": false
+  }, 
+  "formatParams": {
+    "arrayMapFormat": "json", 
+    "charset": "utf8", 
+    "compress": "", 
+    "dateSerializationFormat": "ISO", 
+    "escapeChar": "\\", 
+    "hiveSeparators": [
+      "\u0002", 
+      "\u0003", 
+      "\u0004", 
+      "\u0005", 
+      "\u0006", 
+      "\u0007", 
+      "\b"
+    ], 
+    "normalizeBooleans": false, 
+    "normalizeDoubles": true, 
+    "parseHeaderRow": true, 
+    "probableNumberOfRecords": 7, 
+    "quoteChar": "\"", 
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING", 
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING", 
+    "readMissingColumnsBehavior": "DISCARD_SILENT", 
+    "separator": ",", 
+    "skipRowsAfterHeader": 0, 
+    "skipRowsBeforeHeader": 0, 
+    "style": "excel", 
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING"
+  }, 
+  "formatType": "csv", 
+  "managed": false, 
+  "metrics": {
+    "displayedState": {
+      "columns": [], 
+      "metrics": [
+        "basic:COUNT_COLUMNS", 
+        "basic:COUNT_FILES", 
+        "basic:SIZE", 
+        "records:COUNT_RECORDS"
+      ]
+    }, 
+    "engineConfig": {
+      "basic": {}, 
+      "dss": {
+        "active": true, 
+        "selection": {
+          "filter": {
+            "distinct": false, 
+            "enabled": false
+          }, 
+          "latestPartitionsN": 1, 
+          "maxReadUncompressedBytes": -1, 
+          "maxRecords": -1, 
+          "partitionSelectionMethod": "ALL", 
+          "samplingMethod": "FULL", 
+          "targetRatio": 0.02, 
+          "useMemTable": false, 
+          "withinFirstN": -1
+        }
+      }, 
+      "hive": {
+        "active": true, 
+        "extraConf": []
+      }, 
+      "impala": {
+        "active": true
+      }, 
+      "padRunsWithMetrics": false, 
+      "python": {}, 
+      "sql": {
+        "active": true
+      }
+    }, 
+    "probes": [
+      {
+        "computeOnBuildMode": "PARTITION", 
+        "configuration": {}, 
+        "enabled": true, 
+        "meta": {
+          "level": 0, 
+          "name": "Basic data"
+        }, 
+        "type": "basic"
+      }, 
+      {
+        "computeOnBuildMode": "NO", 
+        "configuration": {}, 
+        "enabled": true, 
+        "meta": {
+          "level": 0, 
+          "name": "Record count"
+        }, 
+        "type": "records"
+      }
+    ]
+  }, 
+  "metricsChecks": {
+    "checks": [], 
+    "displayedState": {
+      "checks": []
+    }, 
+    "runOnBuild": false
+  }, 
+  "params": {
+    "filesSelectionRules": {
+      "excludeRules": [], 
+      "explicitFiles": [], 
+      "includeRules": [
+        {
+          "expr": "^/?orders_201.*[^(03)].csv$", 
+          "matchingMode": "FULL_PATH", 
+          "mode": "REGEXP"
+        }
+      ], 
+      "mode": "RULES_INCLUDED_ONLY"
+    }, 
+    "folderSmartId": "O2ue6CX3", 
+    "itemPathPattern": "/orders_201.*[^(03)].csv"
+  }, 
+  "partitioning": {
+    "dimensions": [], 
+    "ignoreNonMatchingFile": false
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "maxLength": -1, 
+        "name": "order_date", 
+        "timestampNoTzAsDate": false, 
+        "type": "string"
+      }, 
+      {
+        "maxLength": -1, 
+        "name": "pages_visited", 
+        "timestampNoTzAsDate": false, 
+        "type": "string"
+      }, 
+      {
+        "maxLength": -1, 
+        "name": "order_id", 
+        "timestampNoTzAsDate": false, 
+        "type": "string"
+      }, 
+      {
+        "maxLength": -1, 
+        "name": "customer_id", 
+        "timestampNoTzAsDate": false, 
+        "type": "string"
+      }, 
+      {
+        "maxLength": -1, 
+        "name": "tshirt_category", 
+        "timestampNoTzAsDate": false, 
+        "type": "string"
+      }, 
+      {
+        "maxLength": -1, 
+        "name": "tshirt_price", 
+        "timestampNoTzAsDate": false, 
+        "type": "string"
+      }, 
+      {
+        "maxLength": -1, 
+        "name": "tshirt_quantity", 
+        "timestampNoTzAsDate": false, 
+        "type": "string"
+      }
+    ], 
+    "userModified": false
+  }, 
+  "tags": [
+    "creator:alex"
+  ], 
+  "type": "FilesInFolder", 
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "alex"
+    }, 
+    "lastModifiedOn": 1501613913848, 
+    "versionNumber": 8
+  }
+}
