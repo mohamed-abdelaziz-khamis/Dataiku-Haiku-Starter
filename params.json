@@ -64,12 +64,7 @@
       {
         "type": "DATASET",
         "localName": "Orders",
-        "rules": [
-          {
-            "targetProject": "RUN_compute_Orders_enriched_prepared_2_Iik0tzNZ",
-            "appearOnFlow": true
-          }
-        ]
+        "rules": []
       }
     ]
   },
@@ -274,11 +269,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 122,
+    "versionNumber": 123,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603290818914
+    "lastModifiedOn": 1603290852722
   },
   "creationTag": {
     "versionNumber": 0,
