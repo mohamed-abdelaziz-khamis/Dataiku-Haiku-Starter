@@ -3,14 +3,6 @@
   "color": "#4B8021",
   "items": [
     {
-      "objectId": "O2ue6CX3",
-      "objectType": "MANAGED_FOLDER"
-    },
-    {
-      "objectId": "Orders",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "xJZaEzKR",
       "objectType": "MANAGED_FOLDER"
     },
