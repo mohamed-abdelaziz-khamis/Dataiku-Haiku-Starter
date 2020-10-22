@@ -1,7 +1,16 @@
 {
   "name": "Find new customers in the last 30 days",
   "color": "#8C2DA7",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_Orders_filtered",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "Orders_filtered",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
