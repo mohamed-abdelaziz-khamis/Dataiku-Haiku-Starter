@@ -17,10 +17,6 @@
     {
       "objectId": "Orders_enriched",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "O2ue6CX3",
-      "objectType": "MANAGED_FOLDER"
     }
   ],
   "shared": [],
