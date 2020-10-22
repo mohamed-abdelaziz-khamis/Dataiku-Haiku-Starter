@@ -1,6 +1,6 @@
 {
   "name": "Find new customers in the last 30 days",
-  "color": "#8C2DA7",
+  "color": "#465A64",
   "items": [
     {
       "objectId": "compute_Orders_filtered",
