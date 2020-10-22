@@ -3,20 +3,12 @@
   "color": "#0F786B",
   "items": [
     {
-      "objectId": "Orders",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "compute_Orders_enriched_prepared_2",
       "objectType": "RECIPE"
     },
     {
       "objectId": "Orders_enriched_prepared_2",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "O2ue6CX3",
-      "objectType": "MANAGED_FOLDER"
     }
   ],
   "shared": [],
