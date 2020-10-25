@@ -187,7 +187,7 @@
       "streamMode": true
     },
     "wikiSettings": {
-      "promoted": false
+      "promoted": true
     },
     "cluster": {
       "clusterMode": "INHERIT"
@@ -278,11 +278,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 125,
+    "versionNumber": 126,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603613909301
+    "lastModifiedOn": 1603613967680
   },
   "creationTag": {
     "versionNumber": 0,
