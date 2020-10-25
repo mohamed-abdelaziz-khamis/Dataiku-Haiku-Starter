@@ -1,0 +1,24 @@
+{
+  "name": "README",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [],
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "momar"
+    },
+    "lastModifiedOn": 1603613479718
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "momar"
+    },
+    "lastModifiedOn": 1603613479719
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
