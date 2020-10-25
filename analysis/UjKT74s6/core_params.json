@@ -33,6 +33,7 @@
     "columnsSelection": {
       "mode": "ALL"
     },
+    "columnWidthsByName": {},
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -47,12 +48,17 @@
     "explorationSampling": {
       "selection": {
         "maxStoredBytes": 104857600,
+        "timeout": -1,
         "filter": {
           "distinct": false,
           "enabled": false
         },
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
         "samplingMethod": "HEAD_SEQUENTIAL",
         "maxRecords": 10000,
         "targetRatio": 0.02,
@@ -76,11 +82,11 @@
   "charts": [],
   "name": "High revenue analysis",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "momar"
     },
-    "lastModifiedOn": 1499871088062
+    "lastModifiedOn": 1603611638478
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,7 +95,10 @@
     },
     "lastModifiedOn": 1499870998443
   },
-  "tags": [],
+  "tags": [
+    "classification"
+  ],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
