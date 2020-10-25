@@ -1,0 +1,29 @@
+{
+  "type": "article",
+  "params": {
+    "articleId": "1"
+  },
+  "owner": "momar",
+  "listed": false,
+  "name": "Dashboard Insight",
+  "dashboardCreationId": "E68E1sA",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "momar"
+    },
+    "lastModifiedOn": 1603613910045
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "momar"
+    },
+    "lastModifiedOn": 1603613910045
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
