@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603612558057
+    "lastModifiedOn": 1603613967371
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,9 +73,9 @@
     "lastModifiedOn": 1499869606113
   },
   "tags": [
+    "stage: Data processing to selected items",
     "stage:ML/Scoring",
-    "creator:admin",
-    "stage: Data processing to selected items"
+    "creator:admin"
   ],
   "params": {
     "connection": "filesystem_managed",

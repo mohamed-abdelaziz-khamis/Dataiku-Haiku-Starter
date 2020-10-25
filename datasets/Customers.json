@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603611899378
+    "lastModifiedOn": 1603613967351
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,8 +72,8 @@
     "lastModifiedOn": 1498738956324
   },
   "tags": [
-    "creator:alex",
-    "stage:Connections"
+    "stage:Connections",
+    "creator:alex"
   ],
   "params": {
     "folderSmartId": "xJZaEzKR",

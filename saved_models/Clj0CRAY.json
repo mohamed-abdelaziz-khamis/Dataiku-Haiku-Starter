@@ -1665,6 +1665,10 @@
       "containerMode": "INHERIT"
     },
     "sparkParams": {
+      "sparkConf": {
+        "inheritConf": "default",
+        "conf": []
+      },
       "sparkUseGlobalMetastore": false,
       "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
       "sparkRepartitionNonHDFS": 1,
@@ -1743,11 +1747,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603612373471
+    "lastModifiedOn": 1603613967436
   },
   "creationTag": {
     "versionNumber": 0,
