@@ -6,6 +6,7 @@
     "kv": {}
   },
   "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
   "inputs": {
     "main": {
       "items": [
@@ -31,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
-      "login": "alex"
+      "login": "momar"
     },
-    "lastModifiedOn": 1501607779947
+    "lastModifiedOn": 1603612000943
   },
   "creationTag": {
     "versionNumber": 0,
@@ -44,7 +45,10 @@
     },
     "lastModifiedOn": 1498813311341
   },
-  "tags": [],
+  "tags": [
+    "stage:Data processing"
+  ],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }

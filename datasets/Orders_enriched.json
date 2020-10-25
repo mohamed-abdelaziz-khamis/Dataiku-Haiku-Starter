@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "momar"
     },
-    "lastModifiedOn": 1500483111363
+    "lastModifiedOn": 1603612000955
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,7 +73,8 @@
     "lastModifiedOn": 1498813311300
   },
   "tags": [
-    "creator:alex"
+    "creator:alex",
+    "stage:Data processing"
   ],
   "params": {
     "connection": "filesystem_managed",
