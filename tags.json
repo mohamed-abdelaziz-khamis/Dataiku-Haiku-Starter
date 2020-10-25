@@ -23,6 +23,7 @@
     },
     "creator:admin": {
       "color": "#28aadd"
-    }
+    },
+    "stage:Connections": {}
   }
 }

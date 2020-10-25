@@ -1,201 +1,200 @@
 {
+  "type": "FilesInFolder",
+  "managed": false,
+  "formatType": "csv",
   "checklists": {
     "checklists": []
-  }, 
-  "creationTag": {
-    "lastModifiedBy": {
-      "login": "alex"
-    }, 
-    "lastModifiedOn": 1498738956324, 
-    "versionNumber": 0
-  }, 
+  },
   "customMeta": {
     "kv": {}
-  }, 
+  },
   "flowOptions": {
-    "crossProjectBuildBehavior": "DEFAULT", 
-    "rebuildBehavior": "NORMAL", 
-    "virtualizable": false
-  }, 
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
   "formatParams": {
-    "arrayMapFormat": "json", 
-    "charset": "utf8", 
-    "compress": "", 
-    "dateSerializationFormat": "ISO", 
-    "escapeChar": "\\", 
+    "style": "excel",
+    "charset": "utf8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
     "hiveSeparators": [
-      "\u0002", 
-      "\u0003", 
-      "\u0004", 
-      "\u0005", 
-      "\u0006", 
-      "\u0007", 
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
       "\b"
-    ], 
-    "normalizeBooleans": false, 
-    "normalizeDoubles": true, 
-    "parseHeaderRow": true, 
-    "probableNumberOfRecords": 6, 
-    "quoteChar": "\"", 
-    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING", 
-    "readDataTypeMismatchBehavior": "DISCARD_WARNING", 
-    "readMissingColumnsBehavior": "DISCARD_SILENT", 
-    "separator": ",", 
-    "skipRowsAfterHeader": 0, 
-    "skipRowsBeforeHeader": 0, 
-    "style": "excel", 
-    "writeDataTypeMismatchBehavior": "DISCARD_WARNING"
-  }, 
-  "formatType": "csv", 
-  "managed": false, 
-  "metrics": {
-    "displayedState": {
-      "columns": [], 
-      "metrics": [
-        "basic:COUNT_COLUMNS", 
-        "basic:COUNT_FILES", 
-        "basic:SIZE", 
-        "records:COUNT_RECORDS"
-      ]
-    }, 
-    "engineConfig": {
-      "basic": {}, 
-      "dss": {
-        "active": true, 
-        "selection": {
-          "filter": {
-            "distinct": false, 
-            "enabled": false
-          }, 
-          "latestPartitionsN": 1, 
-          "maxReadUncompressedBytes": -1, 
-          "maxRecords": -1, 
-          "partitionSelectionMethod": "ALL", 
-          "samplingMethod": "FULL", 
-          "targetRatio": 0.02, 
-          "useMemTable": false, 
-          "withinFirstN": -1
-        }
-      }, 
-      "hive": {
-        "active": true, 
-        "extraConf": []
-      }, 
-      "impala": {
-        "active": true
-      }, 
-      "padRunsWithMetrics": false, 
-      "python": {}, 
-      "sql": {
-        "active": true
-      }
-    }, 
-    "probes": [
-      {
-        "computeOnBuildMode": "PARTITION", 
-        "configuration": {}, 
-        "enabled": true, 
-        "meta": {
-          "level": 0, 
-          "name": "Basic data"
-        }, 
-        "type": "basic"
-      }, 
-      {
-        "computeOnBuildMode": "NO", 
-        "configuration": {}, 
-        "enabled": true, 
-        "meta": {
-          "level": 0, 
-          "name": "Record count"
-        }, 
-        "type": "records"
-      }
-    ]
-  }, 
-  "metricsChecks": {
-    "checks": [], 
-    "displayedState": {
-      "checks": []
-    }, 
-    "runOnBuild": false
-  }, 
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 6,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 5,
+    "lastModifiedBy": {
+      "login": "momar"
+    },
+    "lastModifiedOn": 1603611899378
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "alex"
+    },
+    "lastModifiedOn": 1498738956324
+  },
+  "tags": [
+    "creator:alex",
+    "stage:Connections"
+  ],
   "params": {
+    "folderSmartId": "xJZaEzKR",
+    "notReadyIfEmpty": false,
     "filesSelectionRules": {
-      "excludeRules": [], 
-      "explicitFiles": [], 
+      "mode": "RULES_INCLUDED_ONLY",
+      "excludeRules": [],
       "includeRules": [
         {
-          "expr": "^/?customers.*$", 
-          "matchingMode": "FULL_PATH", 
-          "mode": "REGEXP"
+          "matchingMode": "FULL_PATH",
+          "mode": "REGEXP",
+          "expr": "^/?customers.*$"
         }
-      ], 
-      "mode": "RULES_INCLUDED_ONLY"
-    }, 
-    "folderSmartId": "xJZaEzKR", 
-    "itemPathPattern": "/customers.*"
-  }, 
-  "partitioning": {
-    "dimensions": [], 
-    "ignoreNonMatchingFile": false
-  }, 
+      ],
+      "explicitFiles": []
+    }
+  },
   "schema": {
     "columns": [
       {
-        "maxLength": -1, 
-        "name": "customerID", 
-        "timestampNoTzAsDate": false, 
+        "name": "customerID",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "gender", 
-        "timestampNoTzAsDate": false, 
+        "name": "gender",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "birthdate", 
-        "timestampNoTzAsDate": false, 
+        "name": "birthdate",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "user_agent", 
-        "timestampNoTzAsDate": false, 
+        "name": "user_agent",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "ip_address", 
-        "timestampNoTzAsDate": false, 
+        "name": "ip_address",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "campaign", 
-        "timestampNoTzAsDate": false, 
+        "name": "campaign",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "original_dataset", 
-        "timestampNoTzAsDate": false, 
+        "name": "original_dataset",
         "type": "string"
       }
-    ], 
-    "userModified": false
-  }, 
-  "tags": [
-    "creator:alex"
-  ], 
-  "type": "FilesInFolder", 
-  "versionTag": {
-    "lastModifiedBy": {
-      "login": "alex"
-    }, 
-    "lastModifiedOn": 1501608008779, 
-    "versionNumber": 4
-  }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    },
+    "engineConfig": {
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "latestPartitionsN": 1,
+          "maxReadUncompressedBytes": -1,
+          "maxRecords": -1,
+          "partitionSelectionMethod": "ALL",
+          "samplingMethod": "FULL",
+          "targetRatio": 0.02,
+          "useMemTable": false,
+          "withinFirstN": -1
+        }
+      },
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "impala": {
+        "active": true
+      },
+      "padRunsWithMetrics": false,
+      "python": {},
+      "sql": {
+        "active": true
+      }
+    },
+    "probes": [
+      {
+        "computeOnBuildMode": "PARTITION",
+        "configuration": {},
+        "enabled": true,
+        "meta": {
+          "level": 0,
+          "name": "Basic data"
+        },
+        "type": "basic"
+      },
+      {
+        "computeOnBuildMode": "NO",
+        "configuration": {},
+        "enabled": true,
+        "meta": {
+          "level": 0,
+          "name": "Record count"
+        },
+        "type": "records"
+      }
+    ]
+  },
+  "metricsChecks": {
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    },
+    "runOnBuild": false
+  },
+  "customFields": {}
 }
