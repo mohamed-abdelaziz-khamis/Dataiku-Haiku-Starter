@@ -25,6 +25,7 @@
       "color": "#28aadd"
     },
     "stage:Connections": {},
-    "stage:Data processing": {}
+    "stage:Data processing": {},
+    "stage:ML/Scoring": {}
   }
 }

@@ -1,48 +1,56 @@
 {
-  "checklists": {
-    "checklists": []
-  }, 
-  "creationTag": {
-    "lastModifiedBy": {
-      "login": "alex"
-    }, 
-    "lastModifiedOn": 1501614895353, 
-    "versionNumber": 0
-  }, 
+  "type": "prediction_training",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
   "customMeta": {
     "kv": {}
-  }, 
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
   "inputs": {
     "main": {
       "items": [
         {
-          "deps": [], 
-          "ref": "Orders_by_customer"
+          "ref": "Orders_by_customer",
+          "deps": []
         }
       ]
     }
-  }, 
-  "neverRecomputeExistingPartitions": false, 
-  "optionalDependencies": false, 
+  },
   "outputs": {
     "main": {
       "items": [
         {
-          "appendMode": false, 
-          "ref": "Clj0CRAY"
+          "ref": "Clj0CRAY",
+          "appendMode": false
         }
       ]
     }
-  }, 
-  "params": {}, 
-  "redispatchPartitioning": false, 
-  "tags": [], 
-  "type": "prediction_training", 
+  },
   "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "momar"
+    },
+    "lastModifiedOn": 1603612373461
+  },
+  "creationTag": {
+    "versionNumber": 0,
     "lastModifiedBy": {
       "login": "alex"
-    }, 
-    "lastModifiedOn": 1501614895353, 
-    "versionNumber": 0
+    },
+    "lastModifiedOn": 1501614895353
+  },
+  "tags": [
+    "stage:ML/Scoring"
+  ],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
   }
 }
