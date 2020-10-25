@@ -221,7 +221,6 @@
     }
   },
   "name": "Haiku Starter",
-  "projectStatus": "Sandbox",
   "imgPattern": 8,
   "metrics": {
     "probes": [],
@@ -278,11 +277,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 126,
+    "versionNumber": 127,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603613967680
+    "lastModifiedOn": 1603615904376
   },
   "creationTag": {
     "versionNumber": 0,
@@ -294,7 +293,8 @@
   "description": "",
   "shortDesc": "This project works with the data used in the [Basics 101-103 courses](https://academy.dataiku.com/page/core-concepts), and is a starting point for a number of learning materials.\n",
   "tags": [
-    "tutorial"
+    "tutorial",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {

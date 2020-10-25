@@ -3,6 +3,18 @@
     "customer analytics": {
       "color": "#d66b9b"
     },
+    "stage: Data processing to selected items": {
+      "color": "#77bec2"
+    },
+    "recipe-editor": {
+      "color": "#1ac2ab"
+    },
+    "classification": {
+      "color": "#123883"
+    },
+    "duplicated": {
+      "color": "#3A85AD"
+    },
     "deleted-recipe-editor": {
       "color": "#90a8b7"
     },
@@ -12,14 +24,8 @@
     "stage:Connections": {
       "color": "#de1ea5"
     },
-    "stage: Data processing to selected items": {
-      "color": "#77bec2"
-    },
     "imported": {
       "color": "#263238"
-    },
-    "recipe-editor": {
-      "color": "#1ac2ab"
     },
     "creator:alex": {
       "color": "#1ac2ab"
@@ -29,9 +35,6 @@
     },
     "stage:ML/Scoring": {
       "color": "#FFD83D"
-    },
-    "classification": {
-      "color": "#123883"
     },
     "creator:admin": {
       "color": "#28aadd"
