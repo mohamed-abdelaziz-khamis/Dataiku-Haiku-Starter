@@ -1,5 +1,8 @@
 {
   "tags": {
+    "customer analytics": {
+      "color": "#d66b9b"
+    },
     "deleted-recipe-editor": {
       "color": "#90a8b7"
     },
@@ -14,6 +17,9 @@
     },
     "tutorial": {
       "color": "#FFC425"
+    },
+    "classification": {
+      "color": "#123883"
     },
     "creator:admin": {
       "color": "#28aadd"
