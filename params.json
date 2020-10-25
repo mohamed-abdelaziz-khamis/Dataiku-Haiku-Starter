@@ -220,7 +220,7 @@
       }
     }
   },
-  "name": "Haiku Starter",
+  "name": "Haiku Starter (prune-flow)",
   "imgPattern": 8,
   "metrics": {
     "probes": [],
@@ -277,11 +277,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 127,
+    "versionNumber": 128,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603615904376
+    "lastModifiedOn": 1603615907753
   },
   "creationTag": {
     "versionNumber": 0,
@@ -291,7 +291,7 @@
     "lastModifiedOn": 1498738782025
   },
   "description": "",
-  "shortDesc": "This project works with the data used in the [Basics 101-103 courses](https://academy.dataiku.com/page/core-concepts), and is a starting point for a number of learning materials.\n",
+  "shortDesc": "This project works with the data used in the [Basics 101-103 courses](https://academy.dataiku.com/page/core-concepts), and is a starting point for a number of learning materials.\n\nThe project *HAIKU_STARTER_PRUNE_FLOW* was copied from *DKU_HAIKU_STARTER* by Mohamed Omar on Oct 25th 2020",
   "tags": [
     "tutorial",
     "duplicated"
