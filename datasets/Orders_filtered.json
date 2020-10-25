@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
-      "login": "alex"
+      "login": "momar"
     },
-    "lastModifiedOn": 1501619081723
+    "lastModifiedOn": 1603612558097
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,7 +73,8 @@
     "lastModifiedOn": 1498814619063
   },
   "tags": [
-    "creator:alex"
+    "creator:alex",
+    "stage: Data processing to selected items"
   ],
   "params": {
     "connection": "filesystem_managed",
@@ -186,7 +187,7 @@
         "type": "boolean"
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "metrics": {
     "probes": [

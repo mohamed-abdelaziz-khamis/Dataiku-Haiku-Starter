@@ -11,6 +11,10 @@
       },
       "partitionSelectionMethod": "ALL",
       "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
       "samplingMethod": "FULL",
       "maxRecords": 100000,
       "targetRatio": 0.02,
@@ -22,15 +26,19 @@
       "sparkSQL": {
         "overwriteOutputSchema": false,
         "useGlobalMetastore": false,
+        "readParams": {
+          "mode": "AUTO",
+          "autoModeRepartitionInto": 10,
+          "map": {}
+        },
         "sparkConfig": {
           "inheritConf": "default",
           "conf": []
         },
-        "readParams": {
-          "map": {}
-        },
+        "executionEngine": "SPARK_SUBMIT",
+        "pipelineAllowStart": true,
         "pipelineAllowMerge": true,
-        "pipelineAllowStart": true
+        "skipPrerunValidate": false
       },
       "impala": {
         "forceStreamMode": true
@@ -42,6 +50,10 @@
         "addDkuUdf": false,
         "skipPrerunValidate": false
       },
+      "sqlPipelineParams": {
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true
+      },
       "lowerCaseSchemaIfEngineRequiresIt": false
     }
   },
@@ -49,6 +61,7 @@
     "kv": {}
   },
   "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
   "inputs": {
     "main": {
       "items": [
@@ -70,11 +83,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
-      "login": "alex"
+      "login": "momar"
     },
-    "lastModifiedOn": 1501613888891
+    "lastModifiedOn": 1603612558107
   },
   "creationTag": {
     "versionNumber": 0,
@@ -83,7 +96,10 @@
     },
     "lastModifiedOn": 1498814619091
   },
-  "tags": [],
+  "tags": [
+    "stage: Data processing to selected items"
+  ],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }

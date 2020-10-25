@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "momar"
     },
-    "lastModifiedOn": 1513878209859
+    "lastModifiedOn": 1603612558080
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1513878166310
   },
-  "tags": [],
+  "tags": [
+    "stage: Data processing to selected items"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "/DKU_HAIKU_STARTER.Orders_by_Country_Category",

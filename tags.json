@@ -26,6 +26,7 @@
     },
     "stage:Connections": {},
     "stage:Data processing": {},
-    "stage:ML/Scoring": {}
+    "stage:ML/Scoring": {},
+    "stage: Data processing to selected items": {}
   }
 }
