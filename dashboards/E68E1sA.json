@@ -7,7 +7,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 5,
               "left": 0,
               "width": 5,
               "height": 4
@@ -31,7 +31,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 4,
+              "top": 9,
               "left": 0,
               "width": 5,
               "height": 4
@@ -55,7 +55,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 5,
               "left": 5,
               "width": 7,
               "height": 8
@@ -74,6 +74,23 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "ORIG_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 5,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {},
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "QmES93K",
+            "insightType": "article",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -181,11 +198,11 @@
   "name": "Analytic dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 57,
+    "versionNumber": 58,
     "lastModifiedBy": {
       "login": "momar"
     },
-    "lastModifiedOn": 1603613842679
+    "lastModifiedOn": 1603613946435
   },
   "creationTag": {
     "versionNumber": 0,
