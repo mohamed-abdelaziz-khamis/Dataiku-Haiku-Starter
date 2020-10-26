@@ -1,40 +1,7 @@
 {
   "name": "Data preparation",
   "color": "#4B8021",
-  "items": [
-    {
-      "objectId": "xJZaEzKR",
-      "objectType": "MANAGED_FOLDER"
-    },
-    {
-      "objectId": "Customers",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_Orders_enriched",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "Orders_enriched",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "Orders",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "O2ue6CX3",
-      "objectType": "MANAGED_FOLDER"
-    },
-    {
-      "objectId": "Orders_enriched_prepared",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_Orders_enriched_prepared",
-      "objectType": "RECIPE"
-    }
-  ],
+  "items": [],
   "shared": [],
   "tags": [],
   "customFields": {},
